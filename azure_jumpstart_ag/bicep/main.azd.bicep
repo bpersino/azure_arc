@@ -36,7 +36,7 @@ param sshRSAPublicKey string
 param logAnalyticsWorkspaceName string = 'Ag-Workspace-${namingGuid}'
 
 @description('Target GitHub account')
-param githubAccount string = 'microsoft'
+param githubAccount string = 'bpersino'
 
 @description('Target GitHub branch')
 param githubBranch string = 'main'
