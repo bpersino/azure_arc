@@ -16,7 +16,8 @@
 		"ghcr.io/rchaganti/vsc-devcontainer-features/azurebicep:1": {},
 		"ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {},
 		"ghcr.io/devcontainers/features/terraform:1": {},
-		"ghcr.io/devcontainers/features/github-cli:1": {}
+		"ghcr.io/devcontainers/features/github-cli:1": {},
+		"ghcr.io/devcontainers/features/git-lfs:1": {}
 	},
 
 	// Configure tool-specific properties.
