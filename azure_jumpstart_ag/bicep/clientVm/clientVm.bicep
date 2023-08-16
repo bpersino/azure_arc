@@ -153,7 +153,7 @@ resource vm 'Microsoft.Compute/virtualMachines@2022-11-01' = {
       }
       dataDisks: [
         {
-          diskSizeGB: 160
+          diskSizeGB: 300
           lun: 0
           createOption: 'Empty'
           caching: 'ReadWrite'
