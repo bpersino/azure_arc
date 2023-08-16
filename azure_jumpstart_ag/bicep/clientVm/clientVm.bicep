@@ -88,7 +88,7 @@ var encodedPassword = base64(windowsAdminPassword)
 var bastionName = 'Ag-Bastion'
 var publicIpAddressName = deployBastion == false ? '${vmName}-PIP' : '${bastionName}-PIP'
 var networkInterfaceName = '${vmName}-NIC'
-var osDiskType = 'Premium_LRS'
+var osDiskType = 'Standard_LRS'
 var PublicIPNoBastion = {
   id: publicIpAddress.id
 }
@@ -158,7 +158,7 @@ resource vm 'Microsoft.Compute/virtualMachines@2022-11-01' = {
           createOption: 'Empty'
           caching: 'ReadWrite'
           managedDisk: {
-            storageAccountType: 'Premium_LRS'
+            storageAccountType: 'StandardSSD_LRS'
           }
         }
       ]
