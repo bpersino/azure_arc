@@ -158,7 +158,7 @@ resource vm 'Microsoft.Compute/virtualMachines@2022-11-01' = {
           createOption: 'Empty'
           caching: 'ReadWrite'
           managedDisk: {
-            storageAccountType: 'PremiumSSD_LRS'
+            storageAccountType: 'Premium_LRS'
           }
         }
       ]
