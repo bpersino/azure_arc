@@ -143,7 +143,7 @@ resource vm 'Microsoft.Compute/virtualMachines@2022-11-01' = {
         managedDisk: {
           storageAccountType: osDiskType
         }
-        diskSizeGB: 64
+        diskSizeGB: 127
       }
       imageReference: {
         publisher: 'MicrosoftWindowsServer'
