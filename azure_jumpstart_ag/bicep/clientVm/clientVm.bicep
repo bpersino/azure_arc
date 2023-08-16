@@ -143,7 +143,7 @@ resource vm 'Microsoft.Compute/virtualMachines@2022-11-01' = {
         managedDisk: {
           storageAccountType: osDiskType
         }
-        diskSizeGB: 256
+        diskSizeGB: 64
       }
       imageReference: {
         publisher: 'MicrosoftWindowsServer'
@@ -153,7 +153,7 @@ resource vm 'Microsoft.Compute/virtualMachines@2022-11-01' = {
       }
       dataDisks: [
         {
-          diskSizeGB: 1024
+          diskSizeGB: 160
           lun: 0
           createOption: 'Empty'
           caching: 'ReadWrite'
