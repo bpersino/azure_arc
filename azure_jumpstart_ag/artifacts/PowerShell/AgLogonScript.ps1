@@ -804,7 +804,7 @@ foreach ($VMName in $VMNames) {
 }
 
 Write-Host "[$(Get-Date -Format t)] INFO: Sleeping for three (3) minutes to allow for AKS EE installs to complete." -ForegroundColor Gray
-Start-Sleep -Seconds 180 # Give some time for the AKS EE installs to complete. This will take a few minutes.
+Start-Sleep -Seconds 360 # Give some time for the AKS EE installs to complete. This will take a few minutes.
 
 #####################################################################
 # Monitor until the kubeconfig files are detected and copied over
