@@ -69,7 +69,7 @@ param cosmosDBEndpoint string
 param rdpPort string = '3389'
 
 @description('Target GitHub account')
-param githubAccount string = 'microsoft'
+param githubAccount string = 'bpersino'
 
 @description('Target GitHub branch')
 param githubBranch string = 'main'
